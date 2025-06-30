@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+ 
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background:red;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+background: linear-gradient(to bottom, #4db0c3,#4662ab 25%);
+  background-color: #8f1f4e; /* Couleur principale */ 
+  
+}
+
+.numbers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  line-height: 1.5;
+   font-weight: 100000;
+  
+}
+
+.numbers {
+  color: white;
+  font-size: 48px; /* ou plus */
+  font-weight: 900;
+  
+   
+}
+
+.image-div {
+  text-align: center;
+ 
+}
+
+.image-div {
+  max-width: 100%;
+  display: inline-block;
+  width:-1000px;
+  gap: 10px;
+ 
+ 
+}
+
+/* erruer ici c'est pour la modification de 100  */
+.days-style {
+  font-size: 150px;         /* taille du texte */
+  font-weight: 2000;        /* texte très épais */
+ color: white;              /* couleur rouge, comme 💯 */     /* contour noir */
+  font-family: 'Arial Black', Impact, sans-serif; /* police épaisse */
+   letter-spacing: -1px;
+   font-size: 150px;
+  font-weight: 900;
+  letter-spacing: -40px;
+  color: white;
+  font-family: 'Arial Black', Impact, sans-serif;
+ width: -200;
+  transform: translateX(-35px); /* décalage doux vers la gauche */
+
+}
+
+
+/* ici c'est la modification de days*/
+.score-style {
+  font-size: 70px;              /* très grand texte */
+  font-weight: 1500;             /* très épais */
+  color: white;                   /* couleur vive comme 💯 */
+  font-family: 'Arial Black', Impact, sans-serif;
+  letter-spacing: -2px;         /* lettres bien rapprochées */
+  font-size: 64px;
+  font-weight: 900;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: -1px;
+  margin-top: -10px; /* rapproche du texte au-dessus */
+  
+    
+}
+
+
+
+.css-title {
+  font-size: 20px;              /* Grande taille de texte */
+  font-weight: 900;             /* Épaisseur maximale */
+  font-family: 'Segoe UI', sans-serif;  /* Police simple, naturelle */
+  color: white;               /* Bleu vif */
+  letter-spacing: -1px;         /* Texte légèrement resserré */
+  display: inline-block;
+    font-family: 'Segoe UI', sans-serif;
+  letter-spacing: -1px;
+  margin-top: -10px; /* rapproche du texte au-dessus */
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centrer horizontalement */        
+      /* supprimer l’espace entre les éléments */
+  line-height: 1;        /* réduire l’espace entre lignes si besoin */
+    font-family: 'Segoe UI', sans-serif;
+  letter-spacing: -1px;
+  margin-top: -30px; /* rapproche du texte au-dessus */
+   font-size: 64px;
+  font-weight: 900;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: -1px;
+  margin-top: -10px; }
+
+
+
+  
+
+
+
+
+
+
